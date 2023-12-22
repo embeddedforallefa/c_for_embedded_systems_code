@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     // Declare a variable to store the user's input
     int dayNumber;
 
@@ -11,7 +12,8 @@ int main() {
     scanf("%d", &dayNumber);
 
     // Use a switch statement to display the name of the day
-    switch (dayNumber) {
+    switch (dayNumber) 
+    {
         case 1:
             printf("Sunday\n");
             break;
