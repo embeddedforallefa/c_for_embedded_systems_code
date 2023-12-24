@@ -1,3 +1,5 @@
+// Define and use user-defined data type called enum (enumeration)
+
 #include <stdio.h>
 
 // Define an enumeration named 'Weekday'
