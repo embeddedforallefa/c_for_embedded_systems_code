@@ -1,4 +1,4 @@
-// contains arithmetic operations
+// Demonstrates arithmetic operators
 // 1. Addition
 // 2. Subtraction
 // 3. Multiplication
