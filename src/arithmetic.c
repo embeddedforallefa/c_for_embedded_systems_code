@@ -3,7 +3,7 @@
 // - Subtraction
 // * Multiplication
 // / Division
-// % Modulus - remainder after division#include <stdio.h>
+// % Modulus - remainder after division
 
 #include <stdio.h>
 
