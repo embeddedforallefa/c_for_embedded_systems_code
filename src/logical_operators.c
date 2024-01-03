@@ -19,7 +19,7 @@ int main() {
     int num3 = -3, num4 = 7;
 
     // Logical OR: returns true if at least one condition is true
-    if (num1 < 0 || num2 < 0) {
+    if (num3 < 0 || num4 < 0) {
         printf("At least one number is negative.\n");
     } else {
         printf("Both numbers are non-negative.\n");
