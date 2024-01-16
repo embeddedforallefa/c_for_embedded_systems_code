@@ -15,7 +15,7 @@
 
 int main() {
     // Basic assignment
-    int num = 10;
+    int num = 10 + 30;
     printf("Value of num: %d\n", num);
 
     int num1 = 5;
@@ -25,9 +25,19 @@ int main() {
 
 
     unsigned int num2 = 10;
+    // Compound assignment with multiplication
+    num2 *= 3;  // Equivalent to: num2 = num2 * 3
+    printf("Value of num2 after multiplication: %u\n", num2);
+
+    unsigned int num3 = 10;
     // Compound assignment with bitwise AND
-    num2 &= 3;  // Equivalent to: num2 = num2 & 3
-    printf("Value of num2 after bitwise AND: %u\n", num2);
+    num3 &= 3;  // Equivalent to: num3 = num3 & 3
+    printf("Value of num3 after bitwise AND: %u\n", num3);
+
+    unsigned int num4 = 10;
+    // Compound assignment with left shift
+    num4 <<= 1;  // Equivalent to: num4 = num4 << 1
+    printf("Value of num4 after left shift: %u\n", num4);
 
     return 0;
 }
