@@ -10,6 +10,7 @@ int main(void)
         printf(" %d", count);
     }
 
+#if 0
     unsigned long long sum = 0LL; // Stores the sum of the integers
     unsigned int count = 0;       // The number of integers to be summed
     // Read the number of integers to be summed
@@ -19,7 +20,8 @@ int main(void)
     for (unsigned int i = 1; i <= count; sum += i++)
         ;
     printf("\nTotal of the first %u numbers is %llu\n", count, sum);
-
+#endif
+#if 0
     char answer = 0;
     for (;;)
     {
@@ -30,6 +32,6 @@ int main(void)
             break; // Go to statement after the loop
     }
     /* Statement after the loop */
-
+#endif
     return 0;
 }
