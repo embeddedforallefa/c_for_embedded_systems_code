@@ -6,6 +6,7 @@ int main() {
         if (i == 3) {
             printf("Skipping iteration at i = %d\n", i);
             continue;
+            printf("Skipped iteration");
         }
         printf("i = %d\n", i);
     }
