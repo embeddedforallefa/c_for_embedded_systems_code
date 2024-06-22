@@ -21,3 +21,5 @@ int main() {
     printf("Size of struct Example: %zu bytes\n", size);
     return 0;
 }
+
+// gcc -mno-ms-bitfields .\structure_padding_packed.c
