@@ -11,6 +11,9 @@ union Data {
 int main() {
     // Declare an instance of the union
     union Data data;
+    
+    // Size of union size of its largest member
+    printf("size: %d\n", sizeof(union Data));
 
     // Assign values to the members
     data.intValue = 42;
