@@ -2,7 +2,7 @@
 
 int main() {
     int num = 42;
-    int *ptr;  // Declare a pointer variable
+    int *ptr = NULL;  // Declare a pointer variable and initialize to NULL
 
     ptr = &num;  // Assign the address of 'num' to the pointer
 
