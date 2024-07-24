@@ -7,7 +7,7 @@ int main() {
     // Initializing an array of integers with 0
     int numbers2[5] = {0};
 
-    // Initializing an array of characters at the time of declaration
+    // Initializing an array of integers at the time of declaration
     char numbers3[] = {10, 20, 30, 40, 50, 60, 70};
 
     // Display the initialized arrays
